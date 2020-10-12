@@ -1,0 +1,16 @@
+/*FONTS*/
+@font-face {
+  font-family: 'RTRondelleTest-Bold';
+  src: url("../fonts/RTRondelleTest-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'RTRondelleTest-Light';
+  src: url("../fonts/RTRondelleTest-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Simplon-Mono';
+  src: url("../fonts/Simplon-Mono.otf") format("opentype");
+}
+/*# sourceMappingURL=fonts.css.map */

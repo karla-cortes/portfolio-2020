@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "AZAMARA",
+        "thumbnail": "images/AZA/azamara.jpg",
+        "gallery": ["../images/AZA/azamara-1.jpg","../images/AZA/azamara-2.jpg", "../images/AZA/azamara-3.jpg"],
+        "banners": "",
+        "client": "Azamara Club Cruises - Royal Caribbean",
+        "info": "These are HTML Email Campaigns I developed and coded for Azamara Club Cruises, a branch of Royal Caribbean. The emails were designed creatively through Sketch or Adobe XD. Emails were then coded through PHP Mailer Generator and deployed through Salesforce Marketing Cloud (Email Content Builder). ",
+        "link": "https://view.email.azamaraclubcruises.com/?qs=33f46ff12aa402185aa7c572354dbd8e29f31b273342c36a9f233fe3ccfc8f93754bfe4c057cbb5cf238a88d990f5e09b8ee1876b54c80379dc76a9a4bbd9047c80cb8e9e3dcbe1bdf7078cf2157a2a0ac6296ddb2b8c128",
+        "technology": "HTML, CSS, AMPSCRIPT, and Salesforce Marketing Cloud"
+    },
+
+
+    {
+        "id": 2,
+        "title": "SongSearch",
+        "thumbnail": "images/SONG/song-search.jpg",
+        "gallery": ["../images/SONG/image-1.jpg","../images/SONG/image-2.jpg", "../images/image-3.jpeg"],
+        "banners": "",
+        "client": "Personal Project",
+        "info": "SongSearch is a React App that I created connected with Apple Music API to search for any artist. The application provides a 30-second clip of songs and links to the album and artist library on Apple Music.",
+        "link": "https://song-search.herokuapp.com/",
+        "technology": "ReactJS, Express, and Apple Music API"
+    },
+ 
+    {
+        "id": 3,
+        "title": "Vice Media ",
+        "thumbnail": "images/VICE/vice-media.jpg",
+        "video": "video/Video-1.mp4",
+        "gallery": ["../images/VICE/vice-media-1.png","../images/VICE/vice-media-2.png", "../images/VICE/vice-media-3.png"],
+        "banners": "",
+        "client": "Vice Media 2030 Fellowship Application",
+        "info": "This was my video submission for Vice Media 2030 Residency Fellowship. The prompt question was: The world is reeling from a global health pandemic and a global injustice pandemic. What is your hope post-pandemic? How would you use your voice to push the world towards that vision?",
+        "link": "https://vimeo.com/467418286",
+        "technology": "Adobe After Effects"
+    },
+
+
+    {
+        "id": 4,
+        "title": "European Wax Center",
+        "thumbnail": "images/EWC/ewc.jpeg",
+        "gallery": "",
+        "banners": ["../images/EWC/banner-1/banner-1.html","../images/EWC/banner-2/banner-2.html", "../images/EWC/banner-3/banner-3.html"],
+        "client": "European Wax Center",
+        "info": "A set of HTML5 banners that were created on Google Web Designer for European Wax Center at Republica Havas. The copy for the banners was written for a bilingual audience so they are in Spanish.",
+        "technology": "Google Web Designer"
+    }
+]
