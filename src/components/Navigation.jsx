@@ -47,7 +47,7 @@ class Navigation extends Component {
                   <li><NavLink to="/" className="nav-links">Home</NavLink></li>
                   <li><NavLink to="/about" className="nav-links">About</NavLink></li>
                   <li><NavLink to="/" className="nav-links">Projects</NavLink></li>
-                  <li><NavLink to="/" className="nav-links">Resume</NavLink></li>
+                  <li><a href="KarlaCortes-Resume-2020.pdf" className="nav-links" target="_blank">Resume</a></li>
                   <li><NavLink to="/about" className="nav-links">Connect</NavLink></li>
                   </Fade>
                 </ul>
