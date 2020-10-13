@@ -21,9 +21,9 @@ class About extends Component {
                     <Fade up duration={2000}>
                       <div>
                     <h1>Who I Am</h1>
-                    <p>I am a 25-year old Cretive Developer from the Greater Boston area currently residing in Miami, FL. My passion is combining the elements of design with technology and problem-solving.</p><br></br>
+                    <p>I am a Creative Developer from the Greater Boston area currently residing in Miami, FL.Web Development fell into my lap around three years ago, and I have not stopped coding ever since.</p><br></br>
 
-                    <p>I am a 25-year old Cretive Developer from the Greater Boston area currently residing in Miami, FL. My passion is combining the elements of design with technology and problem-solving</p>
+                    <p>My passion is combining the attributes of design with technology and problem-solving. My prior experience helps bridge the gap between customer service and my individuality.</p>
 
                     <button>
                       <a href="mailto:kmcortes7@gmail.com">Talk to Me</a>

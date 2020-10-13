@@ -30,7 +30,7 @@ class Info extends Component {
                   <div className="project-bio">
                  
                   <div className="bio">
-                   <video controls width="100%" height="340" className="bio-video" poster="/images/vice-media.jpg" style={{ display: post.video ? 'block' : 'none'}}>
+                   <video controls width="100%" height="500" className="bio-video" poster="/images/vice-media.jpg" style={{ display: post.video ? 'block' : 'none'}}>
                    <source src={`../${post.video}`}type="video/mp4">
                    </source>
                    </video>
@@ -55,10 +55,6 @@ class Info extends Component {
 </div>
 
 </div>
-
-
-             
-                 
 
                   <div className="portfolio-images">
                 

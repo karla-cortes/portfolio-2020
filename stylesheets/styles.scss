@@ -73,7 +73,7 @@ body {
   width: 200%;
   height: 200vh;
   background: transparent
-    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+    url("../images/noise.png") repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation 0.2s infinite;
   opacity: 0.9;
@@ -181,6 +181,7 @@ h1 {
       font-family: 'Arial';
       color: #000000;
       z-index: 1000;
+    
     }
   
     .double {
@@ -390,6 +391,7 @@ h1 {
         height: 400px;
         padding: .8rem;
         display: block;
+        object-fit: cover;
       }
       &:hover {
         .overlay {
@@ -688,7 +690,7 @@ h1 {
 
 /* TABLET */
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 875px) {
     .projects-main-container {
       padding-top: 24px;
    
@@ -713,45 +715,45 @@ h1 {
              &.project-1 {
               flex: 0;
               img {
-                width: 952px;
-                height: 626px;
+                width: 500px;
+                height: 313px;
               }
               .overlay {
-               width: 926px;
-               height: 600px;
+               width: 500px;
+               height: 313px;
               }
           }
           &.project-2 {
            flex: 0;
            img {
-             width: 476px;
-             height: 626px;
+             width: 300px;
+             height: 313px;
            }
            .overlay {
-            width: 476px;
-            height: 626px;
+            width: 300px;
+            height: 313px;
            }
         }
         &.project-3 {
          flex: 0;
          img {
-           width: 476px;
-           height: 626px;
+           width: 500px;
+           height: 313px;
          }
          .overlay {
-           width: 476px;
-           height: 626px;
+           width: 500px;
+           height: 313px;
          }
       }
       &.project-4 {
        flex: 0;
        img {
-         width: 952px;
-         height: 626px;
+         width: 300px;
+         height: 313px;
        }
        .overlay {
-         width: 926px;
-         height: 600px;
+         width: 300px;
+         height: 313px;
        }
     }
         
@@ -761,8 +763,11 @@ h1 {
    }
  }
 }
+
+/* LARGE SCREEN */
+
  
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1000px) {
    
     .main-header {
       .container {

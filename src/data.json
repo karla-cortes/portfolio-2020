@@ -16,7 +16,7 @@
         "id": 2,
         "title": "SongSearch",
         "thumbnail": "images/SONG/song-search.jpg",
-        "gallery": ["../images/SONG/image-1.jpg","../images/SONG/image-2.jpg", "../images/image-3.jpeg"],
+        "gallery": ["../images/SONG/image-1.jpg","../images/SONG/image-2.jpg", "../images/SONG/image-3.jpg"],
         "banners": "",
         "client": "Personal Project",
         "info": "SongSearch is a React App that I created connected with Apple Music API to search for any artist. The application provides a 30-second clip of songs and links to the album and artist library on Apple Music.",
