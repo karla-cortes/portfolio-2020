@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
-import Fade from 'react-reveal/Fade';
 import Data from "../data.json";
 import Footer from "./Footer";
 
@@ -50,7 +49,7 @@ class Info extends Component {
                   <p>{post.client}</p>
                   <h4>Technologies Used</h4>
                   <p>{post.technology}</p>
-                  <button><a href={post.link} target="_blank">View Project</a></button>
+                  <button><a href={post.link} target="_blank" rel="noopener noreferrer">View Project</a></button>
                   </div>
 </div>
 
@@ -58,11 +57,11 @@ class Info extends Component {
 
                   <div className="portfolio-images">
                 
-                  <iframe src={post.banners[0]} width="500" height="417" style={{ display: post.banners[0] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame"></iframe>
+                  <iframe src={post.banners[0]} width="500" height="417" style={{ display: post.banners[0] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame" title="frame-1"></iframe>
 
-                  <iframe src={post.banners[1]} width="500" height="417" style={{ display: post.banners[1] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame"></iframe>
+                  <iframe src={post.banners[1]} width="500" height="417" style={{ display: post.banners[1] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame" title="frame-2"></iframe>
 
-                  <iframe src={post.banners[2]} width="500" height="417" style={{ display: post.banners[2] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame"></iframe>
+                  <iframe src={post.banners[2]} width="500" height="417" style={{ display: post.banners[2] ? 'block' : 'none'}}  frameBorder="0" className="port-img frame" title="frame-3"></iframe>
               
                   <img src={post.gallery[0]} style={{ display: post.gallery[0] ? 'block' : 'none'}} alt="" className="port-img" />
                   <img src={post.gallery[1]} style={{ display: post.gallery[1] ? 'block' : 'none'}} alt="" className="port-img" />

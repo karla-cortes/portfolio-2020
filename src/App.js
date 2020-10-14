@@ -10,7 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
    <div>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={Home}/>

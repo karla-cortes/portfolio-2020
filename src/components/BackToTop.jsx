@@ -12,9 +12,9 @@ class BackToTop extends Component {
             <div onClick={this.goUp} className="moveUp">
            
            
-            <label for="animation2">
+            <label htmlFor="animation2">
             <p>Back to Top</p>
-              <div class="arrow"></div>
+              <div className="arrow"></div>
             </label>
           
             </div>

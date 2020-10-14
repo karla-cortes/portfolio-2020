@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Data from "../data.json";
 import Fade from 'react-reveal/Fade';
-import Info from "./Info";
+
 
 class Projects extends Component {
   state = {};
@@ -22,7 +22,7 @@ class Projects extends Component {
                 <div className="project-image" key={post.id}>
                   <img
                     src={post.thumbnail} 
-                    alt={`image ${post.id}`}
+                    alt={`${post.id}`}
                   />
                 </div>
                 <div className="overlay">

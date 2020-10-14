@@ -43,7 +43,7 @@ class Navigation extends Component {
                 </div>
                
                 <ul className={this.state.isActive ? "desktop-menu active" : "desktop-menu"} id="js-menu" >
-                <div class="bg-active">
+                <div className="bg-active">
                   </div>
                 
                   <li><NavLink to="/" className="nav-links">Home</NavLink></li>
